@@ -24,7 +24,6 @@
   align-items: center;
 }
 
-
 .width-rules {
   inline-size: clamp(375px, 80%, 700px);
 }
@@ -94,7 +93,7 @@
   object-position: right;
 }
 
-.image-decor{
+.image-decor {
   position: absolute;
   z-index: 1;
   top: 23px;
@@ -241,7 +240,7 @@
   background-color: rgba(0, 0, 0, 1);
 }
 
-.button:focus-visible{
+.button:focus-visible {
   outline: none;
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
 }
@@ -330,7 +329,7 @@ dialog::backdrop {
 } 
 
 @supports (text-stroke: 1px rgba(255, 255, 255, 1)) {
-  .image-decor{
+  .image-decor {
     text-stroke: 1px rgba(255, 255, 255, 1);
   }
 }
@@ -368,5 +367,4 @@ dialog::backdrop {
     width: 21px;
     height: 21px;
   }
-
 }
