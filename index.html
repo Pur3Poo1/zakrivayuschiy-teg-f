@@ -16,15 +16,15 @@
   <body class="page">
     <header class="header width-rules">
       <h1 class="header__title">&lt;/html&gt;</h1>
-      <h2 class="header__subtitle">закрывающий тег</h2>
+      <p class="header__subtitle">закрывающий тег</p>
     </header>
     <main>
       <article class="card width-rules">
-        <h3 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h3>
+        <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
         <div class="image-box">
-          <label class="image-decor silvio">&lt;/The Sopranos&gt;</label>
+          <span class="image-decor">&lt;/The Sopranos&gt;</span>
           <img
-            class="silvio"
+            class="card_image hue-rotate"
             alt="Сильвио Данте из сериала Сопрано произносит знаменитый монолог главного героя из фильма Лицо со шрамом"
             src="./images/silvio.jpg"
           />
@@ -35,6 +35,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -69,20 +70,21 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card width-rules">
-        <h3 class="card__title">1 спринт: Я — чистый лист</h3>
+        <h2 class="card__title">1 спринт: Я — чистый лист</h2>
         <div class="image-box">
-          <label class="image-decor">&lt;/Dexter&gt;</label>
+          <span class="image-decor">&lt;/Dexter&gt;</span>
           <img
-            class="dexter"
+            class="card_image grayscale"
             alt="Джеймс Доакс из сериала Декстер подозрительно наблюдает, сидя в машине"
             src="./images/dexter.jpg"
+            loading="lazy"
           />
         </div>
         <div class="card__content">
@@ -91,6 +93,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -125,20 +128,21 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card width-rules">
-        <h3 class="card__title">1 спринт: А если не получится?</h3>
+        <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="image-box">
-          <label class="image-decor">&lt;/Kingdom of Heaven&gt;</label>
+          <span class="image-decor">&lt;/Kingdom of Heaven&gt;</span>
           <img
-            class="balduin"
+            class="card_image invert"
             alt="Кадр из фильма Царство Небесное где король Болдуин 4 поднимает руку, заставляя всех присутствующих замолчать"
             src="./images/balduin.jpg"
+            loading="lazy"
           />
         </div>
         <div class="card__content">
@@ -147,6 +151,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -181,20 +186,21 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card width-rules">
-        <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
+        <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
         <div class="image-box">
-          <label class="image-decor">&lt;/American Psycho&gt;</label>
+          <span class="image-decor">&lt;/American Psycho&gt;</span>
           <img
-            class="american"
+            class="card_image brightness"
             alt="Кадр из фильма Американский психопат на котором главный герой лежит в солярии"
             src="./images/american.jpg"
+            loading="lazy"
           />
         </div>
         <div class="card__content">
@@ -203,6 +209,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -237,20 +244,21 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card width-rules">
-        <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
+        <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <div class="image-box">
-          <label class="image-decor">&lt;/Brokeback Mountain&gt;</label>
+          <span class="image-decor">&lt;/Brokeback Mountain&gt;</span>
           <img
-            class="brokeback"
+            class="card_image saturate-brightness"
             alt="Кадр из фильма Горбатая гора на котором обьнимаются главные герои фильма"
             src="./images/brokeback.jpg"
+            loading="lazy"
           />
         </div>
         <div class="card__content">
@@ -259,6 +267,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -293,20 +302,21 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card width-rules">
-        <h3 class="card__title">3 спринт: Обходные стратегии</h3>
+        <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <div class="image-box">
-          <label class="image-decor">&lt;/ДМБ&gt;</label>
+          <span class="image-decor">&lt;/ДМБ&gt;</span>
           <img
-            class="dmb"
+            class="card_image blur"
             alt="Кадр из фильма ДМБ на котором старший прапорщик объясняет молодым солдатам суть военного абсурда"
             src="./images/dmb.jpg"
+            loading="lazy"
           />
         </div>
         <div class="card__content">
@@ -315,6 +325,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -349,20 +360,21 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card width-rules">
-        <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
+        <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <div class="image-box">
-          <label class="image-decor">&lt;/The Boys&gt;</label>
+          <span class="image-decor">&lt;/The Boys&gt;</span>
           <img
-            class="homelander"
+            class="card_image grayscale-contrast"
             alt="Кадр из сериала Пацаны на котором плачет Хоумлендер a.k. Твердыня a.k. Патриот"
             src="./images/homelander.jpg"
+            loading="lazy"
           />
         </div>
         <div class="card__content">
@@ -371,6 +383,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -405,20 +418,21 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
       <article class="card width-rules">
-        <h3 class="card__title">«Сейчас я здесь»</h3>
+        <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="image-box">
-          <label class="image-decor">&lt;/Gladiator&gt;</label>
+          <span class="image-decor">&lt;/Gladiator&gt;</span>
           <img
-            class="gladiator"
+            class="card_image sepia"
             alt="Кадр из фильма Гладиатор на котором Максимус возвращается домой, проводя рукой по колосьям пшеницы"
             src="./images/gladiator.jpg"
+            loading="lazy"
           />
         </div>
         <div class="card__content">
@@ -427,6 +441,7 @@
           <div class="button-box">
             <button
               type="button"
+              aria-label="Лайк"
               class="card__icon-button"
               aria-labelledby="like-button-04"
             >
@@ -461,7 +476,7 @@
                 />
               </svg>
           </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -485,14 +500,14 @@
           <svg class="dialog-floppy" width="39" height="39" fill="none" viewBox="0 0 28 28">
             <use href="./svg/floppy.svg#floppy1"/>
           </svg>
-          <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
+          <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
         </div>
         <button 
           type="button"
           class="button dialog__button"
           onclick="window['dialog-id'].close()"
         >
-          <span class="button__text">ОК</span>
+          <span class="button__text">ок</span>
         </button>
       </div>
     </dialog>
